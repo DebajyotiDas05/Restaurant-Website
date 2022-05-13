@@ -1,0 +1,173 @@
+<html>
+    <head>
+        <title>Das Restaurant</title>
+    
+        <link rel="stylesheet" type="text/css" href="nav.css">
+        <link rel="stylesheet" type="text/css" href="order.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="icon" type="image/ico" href="images/fav.ico">
+
+        <script>
+            window.onload=function()
+            {
+                document.getElementById('loader') .style.display="none";
+                document.getElementById('content') .style.display="block";
+            }
+        </script>
+
+        <style>
+            #loader
+            {
+                border: opx solid red;
+                position: absolute;
+                margin:auto;
+                top:0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 600px;
+                height: 600px;
+            }
+            #loader img
+            {
+                width: 600px;
+            }
+            #content
+            {
+                display: none;
+            }
+
+        </style>
+    </head>
+    
+    <body>
+
+        <div id="loader">
+            <img src="images/preloader.gif">
+        </div>
+       
+    <div id="content">  
+    
+        <!-- code for nav bar-->
+    
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Menu</a>
+                    <ul>
+                        <li><a href="vegthali.html">Veg Thali</a></li>
+                        <li><a href="nonvegthali.html">Non-Veg Thali</a></li>
+                        <li><a href="chaat.html">Chaat</a></li>
+                        <li><a href="fastfood.html">Fast Food</a></li>
+                        <li><a href="pasta.html">Pasta</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Order</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <br><br><br>
+
+        <h1 align="center">Enter Order Details</h1>
+
+        <br><br><br>
+
+    <center>
+        <div>
+            <form>
+            <table border="0" width="60%">
+                <tr>
+                    <td width="20%">Name</td>
+                    <td width="40%"><input type="text" placeholder="Name"></td>
+                </tr>
+                <tr>
+                    <td>E-Mail</td>
+                    <td><input type="text" placeholder="Mail"></td>
+                </tr>    
+                <tr>
+                    <td>Mobile</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Items Name</td>
+                    <td><input type="text" placeholder="Items"></td>
+                </tr>
+                <tr>
+                    <td>Quantity</td>
+                    <td>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>    
+                    <td>Address</td>
+                    <td><textarea placeholder="Address" ></textarea> </td>
+                </tr>
+                <tr>    
+                    <td></td>
+                    <td><input type="button" value="SUBMIT"></td>
+                </tr>
+            </table>
+            </form>
+        </div>
+    </center>
+
+    <br><br><br><br>
+
+    <!--code for footer-->
+
+    <div class="footer">
+
+        <div class="foot_box">
+            <b>quick Link</b><br><br><br>
+            Home<br>
+            About<br>
+            Menu<br>
+            Order<br>
+            Contact<br>
+        </div>
+
+        <div class="foot_box">
+            <b>Menu</b><br><br><br>
+            Veg Thali<br>
+            Non Non-Veg Thali<br>
+            Fast Food<br>
+            Pizza<br>
+            Pasta<br>
+        </div>
+
+        <div class="foot_box">
+            <b>Address</b><br><br><br>
+            Address:<br>
+            AE-88,VSS Nagar,Bhubaneswar<br>
+            Email: Debajyotidas532@gmail.com<br>
+            Mobile No.:7008362187<br>
+            Timing: 9am to 10pm<br>
+        </div>
+
+        <div class="foot_box">
+            <b>Find Us</b><br><br><br>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.4438851259781!2d85.84355492919066!3d20.30955589914952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19098b8e431121%3A0x92b0798c33cc746!2sAE-177%2C%20VSS%20Nagar%2C%20Bhubaneswar%2C%20Odisha%20751007!5e0!3m2!1sen!2sin!4v1652167124863!5m2!1sen!2sin"
+                width="100%" height="120" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+    </div>
+</div>
+    </body>    
+</html>
